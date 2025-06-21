@@ -1,15 +1,8 @@
-name: str = "Niraj"
-
-number: int = 100
-
-decimal: float = 100
+from typing import Set, List
 
 
-def greet(name: str) -> str:
-    return f"Hello {name}"
+def unique(values: List[int]) -> Set[int]:
+    return set(values)
 
 
-print(greet("Niraj"))
-
-
-arrays: list[str] = ["Niraj"]
+unique([1, 2, 3, 1])
