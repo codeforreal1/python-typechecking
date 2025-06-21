@@ -1,0 +1,10 @@
+[project]
+name = "python-ty"
+version = "0.1.0"
+description = "Type Checking in Python"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["ty>=0.0.1a8"]
